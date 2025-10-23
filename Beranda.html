@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda — SMA Putra Nirmala</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #eef3fb;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: #0b63e5;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        .header-left h1 {
+            font-size: 22px;
+            margin: 0;
+        }
+
+        .header-left p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- KONTEN UTAMA --- */
+        main {
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-box {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .content-box img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #0b63e5;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: #0b63e5;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            nav a {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Selamat Datang — SMA Putra Nirmala</h1>
+            <p>Tempat pengembangan bakat melalui kegiatan ekstrakurikuler yang kreatif dan berprestasi</p>
+        </div>
+        <nav>
+            <!-- 🔗 MENU NAVIGASI -->
+            <!-- Baris di bawah ini adalah tautan (link) menuju halaman lain -->
+            <a href="beranda.html">Beranda</a>
+            
+            <!-- 🟢 Baris berikut ini mengarahkan ke file daftar_eskul.html -->
+            <!-- Pastikan file daftar_eskul.html berada di folder yang sama dengan beranda.html -->
+            <a href="daftar_eskul.html">Daftar Ekstrakurikuler</a>
+            
+            <!-- Tautan menuju halaman kontak -->
+            <a href="kontak.html">Kontak</a>
+           
+            
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <img src="image/sekolah.jpeg" alt="Gedung SMA Putra Nirmala">
+            <h2>Selamat Datang di Website Ekstrakurikuler SMA Putra Nirmala</h2>
+            <p>
+                Melalui website ini, kamu dapat mengenal berbagai kegiatan ekstrakurikuler yang seru dan membangun karakter. 
+                Mari bergabung, kembangkan potensi dirimu, dan raih prestasi bersama teman-teman hebat di SMA Putra Nirmala!
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 SMA Putra Nirmala. Semua hak dilindungi.
+    </footer>
+</body>
+</html>
